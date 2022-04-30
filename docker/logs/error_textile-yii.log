@@ -1,0 +1,724 @@
+2022/04/19 16:33:58 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:34:08 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:38 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:39 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:40 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:41 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:42 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:43 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:44 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:51 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:56 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:36:57 [error] 25#25: *8 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:44:02 [error] 24#24: *2 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:44:07 [error] 24#24: *2 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/19 16:44:31 [error] 24#24: *2 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: print_r() expects at least 1 parameter, 0 given in /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php:531
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', '/var/www/textil...', 531, Array)
+#1 /var/www/textile-yii/modules/toquv/models/ToquvKaliteSearch.php(531): print_r()
+#2 /var/www/textile-yii/modules/toquv/controllers/ToquvKaliteController.php(855): app\modules\toquv\models\ToquvKaliteSearch->searchWeaver(Array)
+#3 [internal function]: app\modules\toquv\controllers\ToquvKaliteController->actionReportGroup()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('report-group', Array)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('toquv/toquv-kal...', Array)
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/textile-yii/web/index.php(23): yii\base\Application->run()
+#10 {main}" while reading upstream, client: 172.19.0.
+2022/04/22 10:46:22 [error] 24#24: *218 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\
+2022/04/22 10:46:22 [error] 24#24: *218 FastCGI sent in stderr: "nal('fetchAll', NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1926)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php
+2022/04/22 10:46:22 [error] 24#24: *218 FastCGI sent in stderr: "tion), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Arra" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz/base/spa/employee-table HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz"
+2022/04/22 11:58:26 [error] 24#24: *226 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\
+2022/04/22 11:58:26 [error] 24#24: *226 FastCGI sent in stderr: "nal('fetchAll', NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1926)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php
+2022/04/22 11:58:26 [error] 24#24: *226 FastCGI sent in stderr: "tion), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Arra" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz/hr/hr-employee-discharge/index HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/base/spa/monthly-salary-report"
+2022/04/22 12:05:47 [error] 23#23: *229 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\
+2022/04/22 12:05:47 [error] 23#23: *229 FastCGI sent in stderr: "nal('fetchAll', NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1926)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php
+2022/04/22 12:05:47 [error] 23#23: *229 FastCGI sent in stderr: "tion), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Arra" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz/base/spa/employee-table HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz"
+2022/04/25 20:55:03 [error] 24#24: *160 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\
+2022/04/25 20:55:03 [error] 24#24: *160 FastCGI sent in stderr: ": yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#32 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#33 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:647
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#1
+2022/04/25 20:55:04 [error] 24#24: *160 FastCGI sent in stderr: "ft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz/admin/users/index HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-salary-documents/index"
+2022/04/26 12:04:08 [error] 25#25: *27 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=loca...', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\A
+2022/04/26 12:04:08 [error] 25#25: *27 FastCGI sent in stderr: "nal('fetchAll', NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1653)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(
+2022/04/26 12:04:08 [error] 25#25: *27 FastCGI sent in stderr: "tion), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Arra" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz/site/logout HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/task/dashboard/dashboard"
+2022/04/26 20:03:38 [error] 25#25: *411 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=127....', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveR
+2022/04/26 20:03:38 [error] 25#25: *411 FastCGI sent in stderr: ", NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1653)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\bas
+2022/04/26 20:03:38 [error] 25#25: *411 FastCGI sent in stderr: "extile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#16 /var/www/textile-yii/" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-employee-attendance/daily-report?_toga3048777=all"
+2022/04/26 20:03:48 [error] 24#24: *416 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct('mysql:host=127....', 'root', '12345678', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveR
+2022/04/26 20:03:48 [error] 24#24: *416 FastCGI sent in stderr: ", NULL)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\mysql\Schema->loadTableSchema('users')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('users', 'schema', false)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(439): yii\db\Schema->getTableSchema('users')
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(266): yii\db\ActiveRecord::getTableSchema()
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(238): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#14 /var/www/textile-yii/models/Users.php(208): yii\db\BaseActiveRecord::findOne(Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(697): app\models\Users::findIdentity(1653)
+#16 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(198): yii\web\User->renewAuthStatus()
+#17 /var/www/textile-yii/vendor/yiisoft/yii2/web/User.php(366): yii\web\User->getIdentity()
+#18 /var/www/textile-yii/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#19 /var/www/textile-yii/controllers/MyController.php(20): yii\base\Component->__get('isGuest')
+#20 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(176): app\controllers\MyController->beforeAction(Object(yii\web\ErrorAction))
+#21 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('error', Array)
+#22 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\bas
+2022/04/26 20:03:48 [error] 24#24: *416 FastCGI sent in stderr: "extile-yii/vendor/yiisoft/yii2/db/ActiveRecord.php(195): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /var/www/textile-yii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(Array)
+#16 /var/www/textile-yii/" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "GET /uz HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-employee-attendance/daily-report?_toga3048777=all"
+2022/04/26 20:14:57 [error] 25#25: *422 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/textile-yii/api/modules/v1/controllers/HrEmployeeController.php on line 222. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(ArgumentCountError))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(ArgumentCountError))
+#4 {main}
+Previous exception:
+ArgumentCountError: Too few arguments to function yii\helpers\BaseArrayHelper::index(), 1 passed in /var/www/textile-yii/api/modules/v1/controllers/HrEmployeeController.php on line 224 and at least 2 expected in /var/www/textile-yii/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php:473
+Stack trace:
+#0 /var/www/textile-yii/api/modules/v1/controllers/HrEmployeeController.php(224): yii\helpers\BaseArrayHelper::index(Array)
+#1 [internal function]: app\api\modules\v1\controllers\HrEmployeeController->actionSearch('GET_EMPLOYEE_MO...')
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('search', Array)
+#5 /var/www/textile-yii/vendor/yiisoft/yii2/web/Applicat" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "POST /api/v1/hr-employees/search?type=GET_EMPLOYEE_MONTHLY_SALARY HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-salary-documents/actions/create"
+2022/04/26 20:14:57 [error] 25#25: *422 FastCGI sent in stderr: "ion.php(103): yii\base\Module->runAction('v1/hr-employee/...', Array)
+#6 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/textile-yii/api/index.php(17): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'HOSTNAME' => 'dbcbf9a53b88',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'HOME' => '/var/www',
+    'XDEBUG_CONFIG' => 'remote_host=127.0.0.1',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_VERSION' => '7.4.28',
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312',
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.28.tar.xz.asc',
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.28.tar.xz',
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c',
+    'PWD' => '/var/www/textile-yii',
+    'PHP_SHA256' => '9cc3b6f6217b60582f78566b3814532c4b71d517876c25013ae51811e65d8fce',
+    'USER' => 'www-data',
+    'HTTP_COOKIE' => '_language=f34650f3dd675287f20ed04c0d0d01e2aff6ca5ab627f497a35aa3cd7e0a2cc7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_language%22%3Bi%3A1%3Bs%3A2%3A%22uz%22%3B%7D; force_login=d02937f42cc1dee75b6cf204a15ba7f33dbb8dd546404a3abf5df2e7f306ecc9a%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22force_login%22%3Bi%3A1%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=0525dbc6336b673b1dd85472993cbf9f; _panelUser=17822bf282d22e6b1044b39e3e30156ce32a67d7c6159dae56d48b96d6f5b0d0a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_panelUser%22%3Bi%3A1%3Bs%3A18%3A%22%5B1653%2Cnull%2C172800%5D%22%3B%7D; _csrf=9355f3ad2628e3362398efb834f5796b49031d069dadc393797611140b855665a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1
+2022/04/28 16:24:08 [error] 25#25: *6 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/textile-yii/modules/hr/models/HrEmployeesTabelInfo.php on line 704. in /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidArgumentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidArgumentException))
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Operator 'HE.ID = HSDI.HR_EMPLOYEE_ID AND HEP.DEPARTMENT_ID = HSDI.HR_DEPARTMENT_ID AND HEP.FIRM_ID = HSDI.FIRM_ID
+                A" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "POST /api/v1/hr-employees/search?type=GET_EMPLOYEE_MONTHLY_SALARY HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-salary-documents/actions/create"
+2022/04/28 16:24:08 [error] 25#25: *6 FastCGI sent in stderr: "ND HEP.HR_POSITION_ID = HSDI.HR_POSITION_ID 
+                AND HEP.DISCHARGE = HSDI.DISCHARGE_VALUE AND HEP.DISCHARGE_NAME = HSDI.DISCHARGE_NAME' requires two operands. in /var/www/textile-yii/vendor/yiisoft/yii2/db/conditions/SimpleCondition.php:79
+Stack trace:
+#0 /var/www/textile-yii/vendor/yiisoft/yii2/db/QueryBuilder.php(1606): yii\db\conditions\SimpleCondition::fromArrayDefinition('HE.ID = HSDI.HR...', Array)
+#1 /var/www/textile-yii/vendor/yiisoft/yii2/db/QueryBuilder.php(1576): yii\db\QueryBuilder->createConditionFromArray(Array)
+#2 /var/www/textile-yii/vendor/yiisoft/yii2/db/QueryBuilder.php(1310): yii\db\QueryBuilder->buildCondition(Array, Array)
+#3 /var/www/textile-yii/vendor/yiisoft/yii2/db/QueryBuilder.php(234): yii\db\QueryBuilder->buildJoin(Array, Array)
+#4 /var/www/textile-yii/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\QueryBuilder->build(Object(yii\db\Query))
+#5 /var/www/textile-yii/modules/hr/models/HrEmployeesTabelInfo.php(705): yii\db\ActiveQuery->createCommand()
+#6 /var/www/textile-yii/api/modules/v1/controllers/HrEmployeeController.php(233): app\modules\hr\models\HrEmployeesTabelInfo->getEmployee(Array)
+#7 [internal function]: app\api\modules\v1\controllers\HrEmployeeController->actionSearch('GET_EMPLOYEE_MO...')
+#8 /var/www/textile-yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/textile-yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/textile-yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('search', Array)
+#11 /var/www/textile-yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/hr-employee/...', Array)
+#12 /var/www/textile-yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/textile-yii/api/index.php(17): yii\base\Application->run()
+#14 {main}
+$_SERVER = [
+    'HOSTNAME' => 'dbcbf9a53b8
+2022/04/28 16:24:08 [error] 25#25: *6 FastCGI sent in stderr: "L, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_CONTENT_LENGTH' => '220',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'textile.lc',
+    'SCRIPT_FILENAME' => '/var/www/textile-yii/api/index.php',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'textile.lc',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '172.19.0.3',
+    'REMOTE_PORT' => '61430',
+    'REMOTE_ADDR' => '172.19.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.21.6',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/var/www/textile-yii',
+    'DOCUMENT_URI' => '/api/index.php',
+    'REQUEST_URI' => '/api/v1/hr-employees/search?type=GET_EMPLOYEE_MONTHLY_SALARY',
+    'SCRIPT_NAME' => '/api/index.php',
+    'CONTENT_LENGTH' => '220',
+    'CONTENT_TYPE' => 'application/json',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => 'type=GET_EMPLOYEE_MONTHLY_SALARY',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/api/index.php',
+    'REQUEST_TIME_FLOAT' => 1651163047.551665,
+    'REQUEST_TIME' => 1651163047,
+    'argv' => [
+        'type=GET_EMPLOYEE_MONTHLY_SALARY',
+    ],
+    'argc' => 1,
+]" while reading upstream, client: 172.19.0.1, server: textile.lc, request: "POST /api/v1/hr-employees/search?type=GET_EMPLOYEE_MONTHLY_SALARY HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "textile.lc", referrer: "http://textile.lc/uz/hr/hr-salary-documents/actions/create"
