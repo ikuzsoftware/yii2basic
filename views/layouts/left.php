@@ -31,8 +31,9 @@
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
-                    ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
+                    ['label' => 'Home', 'icon' => 'fa fa-home', 'url' => ['index']],
+                    ['label' => 'About', 'icon' => 'fa fa-info', 'url' => ['about', 'id' => 5, 'slug' => 'abc']],
+                    ['label' => 'Contact', 'icon' => 'fa fa-info', 'url' => ['contact', 'type' => 'aloqa', 'slug' => 'abc']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => 'Some tools',
