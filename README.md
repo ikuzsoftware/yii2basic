@@ -1,6 +1,9 @@
 # yii2basic
 yii2 basic ishlatish uchun tayyor holatda
 
+
+Telegram bot webhook'ini sozlash
+-------
 1) `config/web.php` ichida `botToken` keraklisiga o'zgartiriladi:
 ```php
         'telegram' => [
