@@ -25,7 +25,7 @@ class m220430_031839_create_user_table extends Migration
          * Login: admin
          * Pass: admin
          */
-        $this->insert('users', [
+        $this->insert('user', [
             'id' => 1,
             'username' => 'admin',
             'password' => 'admin',
